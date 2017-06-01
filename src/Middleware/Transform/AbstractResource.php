@@ -46,7 +46,6 @@ class AbstractResource extends AbstractMiddleware
         ResponseInterface $response,
         callable $next = null
     ) {
-
         // Set transformed body contents
         $request = $request->withBody(
             StreamFactory::create(
@@ -57,7 +56,6 @@ class AbstractResource extends AbstractMiddleware
         $response = $next($request, $response);
 
         return $this->handleResponse($response);
-
     }
 
     /**
@@ -78,7 +76,6 @@ class AbstractResource extends AbstractMiddleware
      */
     protected function resolveTransformer()
     {
-
         if (TransformerHelper::isTransformer($this->transformer)) {
             return $this->transformer;
         }
