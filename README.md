@@ -1,10 +1,10 @@
-# HubSpot Http
+# Relay - Transform
 [![Latest Version](https://img.shields.io/github/release/flipbox/relay-transform.svg?style=flat-square)](https://github.com/flipbox/relay-transform/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/flipbox/relay-transform/master.svg?style=flat-square)](https://travis-ci.org/flipbox/relay-transform)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/flipbox/relay-transform.svg?style=flat-square)](https://scrutinizer-ci.com/g/flipbox/relay-transform/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/flipbox/relay-transform.svg?style=flat-square)](https://scrutinizer-ci.com/g/flipbox/relay-transform)
-[![Total Downloads](https://img.shields.io/packagist/dt/flipboxdigital/relay-transform.svg?style=flat-square)](https://packagist.org/packages/league/relay-transform)
+[![Total Downloads](https://img.shields.io/packagist/dt/flipboxdigital/relay-transform.svg?style=flat-square)](https://packagist.org/packages/flipboxdigital/relay-transform)
 
 This package provides a Transform Middleware leveraging [Transform](https://github.com/flipbox/transform) and [Stash](https://github.com/tedious/Stash).
 
